@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css"href="main.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <img id="header-img" src="https://th.bing.com/th/id/R.1cefcec28c052605ad1bc7063284f711?rik=NfHE7Pz0dYECcw&pid=ImgRaw&r=0" alt="company-logo">
+    <div class="topnav">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#shop">Shop</a>
+        <a class="nav-link" href="#finance">Finance</a>
+        <a class="nav-link" href="#discovery">Discovery</a>
+        <a class="nav-link" href="#own-veh">Own</a>
+      </nav>
+    </div>
+  </header>
+  <section id="shop">
+    <h1>Audi R8 One of the best </h1>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/F8Cb4p2vUsM?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section id="finance">
+    <h2 class="more-info">Request more info</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" placeholder="Enter your email" name="email">
+      <input id="submit" type="submit">
+    </form>
+  </section>
+  <section id="discovery">
+
+  </section>
+  <section id="own-veh">
+   <h1 class="best-model"> Our Best models </h1>
+    <div class="flex-container" id="audi-div3">
+      <img id="audis" src="https://netcarflix.sfo2.digitaloceanspaces.com/2020/04/2020-Audi-R8-Coupe-US-45.jpg" width="20%" alt="Red-audi" class="red-audi">
+      <img id="audis" src="https://www.motortrend.com/uploads/sites/5/2019/11/2020-Audi-RS-Q8-10.jpg" width="20%" alt="Red-audi" class="orange-audi">
+      <img id="audis" src="https://th.bing.com/th/id/R.316847c9afda7d569d7fc32f4913d7ec?rik=pno9O55BFU7IgQ&pid=ImgRaw&r=0" width="20%" alt="blue-audi" class="blue-audi">
+      <img id="audis" src="https://th.bing.com/th/id/R.2f3406d6c75d79a58c3d182930ff7c6d?rik=Z7yKXRniMyB6JQ&pid=ImgRaw&r=0" width="20%" alt="black-audi" class="black-audi">
+     
+    </div>
+
+  </section>
+</body>
+<script> console.log("Js Loaded");
+window.onscroll = function () {
+  myFunction();
+};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  console. log('scroll triggered')
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+    </script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
+
+
+

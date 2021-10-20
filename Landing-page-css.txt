@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital@1&display=swap');
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  text-align: center;
+    background-color: #2C2C2B;
+    color: Silver;
+    font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+section {
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+input {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+input:hover {background-color: darkgoldenrod;}
+    
+}
+
+.nav-link { 
+  padding: 20px;
+  margin: 20px;
+  background-color: #333;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+.flex-container > div {
+  background-color:	white ;
+  width: 200px;
+  text-align: center;
+   margin-top: 20px;
+  line-height: 400px;
+  font-size: 14px;
+  color: Black;
+    justify-content: space-around;
+  
+  font-size: 30px;
+}
+
+.flex-container {
+      display: flex;
+      
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2C2C2B;
+  padding-bottom: 20px;
+}
+
+
+.best-model {
+    font-family: sans-serif bold;
+    color: black;
+    border: 2px solid black;
+    margin: 50px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #999;
+}
+
+ 
+
+ /* For desktop:  https://th.bing.com/th/id/R.c57d58a74ef08c51956d825bc6d2c7ee?rik=BH8vCC1Yaq5ByA&pid=ImgRaw&r=0 */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+}
+
+#video {
+    box-shadow: 5px 5px 5px white;
+
+    
+    
+}
+
+#audis {
+    margin: 30px;
+    align-content: center;
+    border-radius: 50%;
+
+    box-shadow: 5px 5px 5px #999; 
+}
+
+    
+
+#header-img {
+  top: 0;  
+  width: 150px;
+  margin: 50px
+    
+      
+    }
+#own-veh {
+  background-color: #d2d2d2;
+  
+  
+}
+
+
+
+    
